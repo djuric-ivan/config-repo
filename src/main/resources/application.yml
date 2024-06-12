@@ -17,6 +17,7 @@ eureka:
 server:
   port: 9595
 
+
 microservice:
   payment-service:
     endpoints:
@@ -26,6 +27,3 @@ microservice:
     endpoints:
       fetchUserById:
         uri: http://USER-SERVICE/users/
-
-test:
-  input: 1
